@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  AnimationViewController.swift
 //  SpringAnimationApp
 //
 //  Created by Izyumets Aleksandr on 13.07.2022.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class AnimationViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
