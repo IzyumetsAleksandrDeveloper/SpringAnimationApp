@@ -74,6 +74,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Start">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="startAnimationButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pQo-D5-9Jr"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -87,6 +90,14 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Igw-6z-FZN" secondAttribute="trailing" constant="50" id="rjU-eB-Epk"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="curveLabel" destination="CkE-wc-pXZ" id="37d-hC-AYA"/>
+                        <outlet property="delayLabel" destination="5z8-bE-cUw" id="ING-9J-27G"/>
+                        <outlet property="durationLabel" destination="4Jt-dD-Qjb" id="D3g-pn-NgE"/>
+                        <outlet property="forceLabel" destination="S52-Wy-QGo" id="4TJ-lO-rUP"/>
+                        <outlet property="presetLabel" destination="vIu-gJ-pDX" id="smO-bx-AgW"/>
+                        <outlet property="springView" destination="Igw-6z-FZN" id="QUh-kl-BAi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -14,6 +14,7 @@
 		432F0D19287F475B001188E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 432F0D17287F475B001188E7 /* Main.storyboard */; };
 		432F0D1B287F475D001188E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 432F0D1A287F475D001188E7 /* Assets.xcassets */; };
 		432F0D1E287F475D001188E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 432F0D1C287F475D001188E7 /* LaunchScreen.storyboard */; };
+		43B0A6682887199100E2F5D0 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B0A6672887199100E2F5D0 /* DataManager.swift */; };
 		9F98E550BD22B062CE0E6327 /* Pods_SpringAnimationApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ECFC5563845C705E2DEC058 /* Pods_SpringAnimationApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		432F0D1A287F475D001188E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		432F0D1D287F475D001188E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		432F0D1F287F475D001188E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43B0A6672887199100E2F5D0 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		6AC357989C119DE7A89136B1 /* Pods-SpringAnimationApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpringAnimationApp.debug.xcconfig"; path = "Target Support Files/Pods-SpringAnimationApp/Pods-SpringAnimationApp.debug.xcconfig"; sourceTree = "<group>"; };
 		CD0E9071B81D616CBB375496 /* Pods-SpringAnimationApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpringAnimationApp.release.xcconfig"; path = "Target Support Files/Pods-SpringAnimationApp/Pods-SpringAnimationApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,8 +132,17 @@
 				43277FFF2881C98C0040DF40 /* Storyboards */,
 				432780002881C9BC0040DF40 /* Supporting */,
 				432780012881C9CD0040DF40 /* Recources */,
+				43B0A669288F213900E2F5D0 /* DataManager */,
 			);
 			path = SpringAnimationApp;
+			sourceTree = "<group>";
+		};
+		43B0A669288F213900E2F5D0 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				43B0A6672887199100E2F5D0 /* DataManager.swift */,
+			);
+			path = DataManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				432F0D16287F475B001188E7 /* AnimationViewController.swift in Sources */,
+				43B0A6682887199100E2F5D0 /* DataManager.swift in Sources */,
 				432F0D12287F475B001188E7 /* AppDelegate.swift in Sources */,
 				432780032881CA610040DF40 /* Animation.swift in Sources */,
 				432F0D14287F475B001188E7 /* SceneDelegate.swift in Sources */,
